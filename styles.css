@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+        .body{
+            background-color: #234747;
+            padding: 0px;
+            margin: 0px;
+            font-family: Anton,sans-serif;
+            color: aliceblue;
+            text-decoration: none;
+            
+            overflow:visible;
+        }
+        .header{justify-content: space-between;display: flex;padding: 10px;color: inherit;background-color: rgba(0, 0, 0, 0.35);box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);}
+        .main{
+            display: block;
+            
+
+        }
+        
+        .img{margin-right: 42%;
+            
+            }
+        .buttondiv
+        {
+
+        }
+        
+        .button{
+        background: #075D78;
+        margin-bottom:35% ;
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        
+        
+       
+        
+        }
+        #button:hover{
+            box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+            
+            transition: 0.5s box-shadow;
+           
+       }
+        
+        .maintext{
+            text-align: center ; 
+            margin-top:2.5% ;
+            
+        }
+        .buttonfont{
+            color: seashell;
+            font-size: 20px;
+            
+        }
+        .div{
+         margin-top:10% ;
+         align-items: center;
+         justify-content: space-around;
+         display: flex;
+         
+         
+        
+         
+         } 
+         .mainimagediv{
+            
+             
+            
+         }
+         .mainimage{
+            
+            margin-left:45% ;
+             align-content: center;margin-top: 5%;position: relative;height: 100px;
+         }
+         .codediv{ 
+            
+            
+            
+            margin-right:10% ;
+            align-self: center;
+            align-items: center;
+            
+            
+         }
+         .code{
+            
+            word-wrap: inherit;
+           
+            font-size: 25px;
+            
+            background-color: rgb(32, 32, 95);
+            
+         }
+         .codeinput{
+             width: 150px;
+             height: 35px;
+             align-self: center;
+             border: none;
+             font-size: 30px;
+            
+             text-transform: uppercase;
+             font:small;
+         }
+         .codebutton{
+             border: none;
+             align-self: center;
+             background-color: rgb(34, 156, 99);
+             font-size: 20px;
+             color: white;
+             margin-left:100px ;
+             margin-top:25px ;
+             
+         }
+         
+        
+         
+        
+    

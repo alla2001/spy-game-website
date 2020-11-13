@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.playingdiv
+{
+display: flex;
+justify-content: center;
+margin-top:10% ;
+overflow: auto;
+
+
+
+}
+.player{
+    padding: 0px;
+    margin:  10px;
+    
+}

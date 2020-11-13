@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spy game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<header class="header">
+    <img src="images/Union (4).png" alt="" height="30">
+    <img src="images/the spy game.png" alt="" height="30" class="img">
+</header>
+
+<body class="body">
+    <div style="margin-left:10px;">
+        <p>player number</p>
+    </div>
+    <div id="ready">
+        <div class="playingdiv" id="playerlist">
+            <div class="player" id="player">
+                <div>
+                    <img src="images/checkmark.png" alt="">
+                </div>
+                <div>
+                    <img src="images/player.png" alt="">
+                </div>
+                <p id="playername">player</p>
+            </div>
+        </div>
+        <div id="" style="align-items: center;justify-content: center;display: flex;font-size: 20px;">
+            <p style="align-self: center;justify-self: center;">players ready : </p>
+            <p> 15</p>
+        </div>
+    </div>
+    <div
+        style="display: inline-flex;width: 100%;height: 100px;align-items: center;justify-content: center;margin-top:2% ;">
+        <button id="ready_button"
+            style="height: 60px;width: 150px;border: none;background-color: green;text-align: center;" id="button">
+            <p onclick="addplayer()"
+                style="color: rgb(255, 255, 255);font-family: Anton;font-size: 28px;align-self: center;text-align: center;padding: 0px;margin: 0px;">
+                ready</p>
+        </button>
+    </div>
+    <script>
+        var i = 1;
+
+        function change() {
+            var checkmark = document.getElementById("checkmark");
+            document.getElementById("ready_button").remove()
+            checkmark.remove();
+            /*var readypage = document.getElementById("ready");
+            var playypage = document.getElementById("play");
+            readypage.innerHTML = playypage;*/
+        }
+
+        function addplayer() {
+            i++;
+            var player = document.getElementById("player");
+            var playername = document.getElementById("playername");
+            var newplayer = player.cloneNode(true);
+            var text = newplayer.childNodes.item("playername");
+
+
+
+            document.getElementById("playerlist").appendChild(newplayer)
+
+            //newplayer.lastChild.innerHTML="player "+ i;
+
+        }
+    </script>
+
+
+</body>
+
+</html>
